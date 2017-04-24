@@ -1,0 +1,557 @@
+{
+	"FMT" : [
+		{
+			"Type" : "128",
+			"Length" : "89",
+			"Name" : "FMT",
+			"Format" : "BBnNZ",
+			"Columns" : [ "Type", "Length", "Name", "Format", "Columns" ]
+		},
+		{
+			"Type" : "129",
+			"Length" : "31",
+			"Name" : "PARM",
+			"Format" : "QNf",
+			"Columns" : [ "TimeUS", "Name", "Value" ]
+		},
+		{
+			"Type" : "130",
+			"Length" : "50",
+			"Name" : "GPS",
+			"Format" : "QBIHBcLLeeEefB",
+			"Columns" : [ "TimeUS", "Status", "GMS", "GWk", "NSats", "HDop", "Lat", "Lng", "RAlt", "Alt", "Spd", "GCrs", "VZ", "U" ]
+		},
+		{
+			"Type" : "131",
+			"Length" : "50",
+			"Name" : "GPS2",
+			"Format" : "QBIHBcLLeeEefB",
+			"Columns" : [ "TimeUS", "Status", "GMS", "GWk", "NSats", "HDop", "Lat", "Lng", "RAlt", "Alt", "Spd", "GCrs", "VZ", "U" ]
+		},
+		{
+			"Type" : "194",
+			"Length" : "19",
+			"Name" : "GPA",
+			"Format" : "QCCCC",
+			"Columns" : [ "TimeUS", "VDop", "HAcc", "VAcc", "SAcc" ]
+		},
+		{
+			"Type" : "195",
+			"Length" : "19",
+			"Name" : "GPA2",
+			"Format" : "QCCCC",
+			"Columns" : [ "TimeUS", "VDop", "HAcc", "VAcc", "SAcc" ]
+		},
+		{
+			"Type" : "132",
+			"Length" : "49",
+			"Name" : "IMU",
+			"Format" : "QffffffIIfBB",
+			"Columns" : [ "TimeUS", "GyrX", "GyrY", "GyrZ", "AccX", "AccY", "AccZ", "ErrG", "ErrA", "Temp", "GyHlt", "AcHlt" ]
+		},
+		{
+			"Type" : "133",
+			"Length" : "75",
+			"Name" : "MSG",
+			"Format" : "QZ",
+			"Columns" : [ "TimeUS", "Message" ]
+		},
+		{
+			"Type" : "134",
+			"Length" : "39",
+			"Name" : "RCIN",
+			"Format" : "Qhhhhhhhhhhhhhh",
+			"Columns" : [ "TimeUS", "C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14" ]
+		},
+		{
+			"Type" : "135",
+			"Length" : "35",
+			"Name" : "RCOU",
+			"Format" : "Qhhhhhhhhhhhh",
+			"Columns" : [ "TimeUS", "Ch1", "Ch2", "Ch3", "Ch4", "Ch5", "Ch6", "Ch7", "Ch8", "Ch9", "Ch10", "Ch11", "Ch12" ]
+		},
+		{
+			"Type" : "136",
+			"Length" : "15",
+			"Name" : "RSSI",
+			"Format" : "Qf",
+			"Columns" : [ "TimeUS", "RXRSSI" ]
+		},
+		{
+			"Type" : "138",
+			"Length" : "25",
+			"Name" : "BARO",
+			"Format" : "Qffcf",
+			"Columns" : [ "TimeUS", "Alt", "Press", "Temp", "CRt" ]
+		},
+		{
+			"Type" : "139",
+			"Length" : "17",
+			"Name" : "POWR",
+			"Format" : "QCCH",
+			"Columns" : [ "TimeUS", "Vcc", "VServo", "Flags" ]
+		},
+		{
+			"Type" : "146",
+			"Length" : "45",
+			"Name" : "CMD",
+			"Format" : "QHHHfffffff",
+			"Columns" : [ "TimeUS", "CTot", "CNum", "CId", "Prm1", "Prm2", "Prm3", "Prm4", "Lat", "Lng", "Alt" ]
+		},
+		{
+			"Type" : "147",
+			"Length" : "20",
+			"Name" : "RAD",
+			"Format" : "QBBBBBHH",
+			"Columns" : [ "TimeUS", "RSSI", "RemRSSI", "TxBuf", "Noise", "RemNoise", "RxErrors", "Fixed" ]
+		},
+		{
+			"Type" : "149",
+			"Length" : "39",
+			"Name" : "CAM",
+			"Format" : "QIHLLeeccC",
+			"Columns" : [ "TimeUS", "GPSTime", "GPSWeek", "Lat", "Lng", "Alt", "RelAlt", "Roll", "Pitch", "Yaw" ]
+		},
+		{
+			"Type" : "165",
+			"Length" : "29",
+			"Name" : "ARSP",
+			"Format" : "Qffcff",
+			"Columns" : [ "TimeUS", "Airspeed", "DiffPress", "Temp", "RawPress", "Offset" ]
+		},
+		{
+			"Type" : "167",
+			"Length" : "25",
+			"Name" : "CURR",
+			"Format" : "QhhhHfh",
+			"Columns" : [ "TimeUS", "Throttle", "Volt", "Curr", "Vcc", "CurrTot", "Volt2" ]
+		},
+		{
+			"Type" : "166",
+			"Length" : "27",
+			"Name" : "ATT",
+			"Format" : "QccccCCCC",
+			"Columns" : [ "TimeUS", "DesRoll", "Roll", "DesPitch", "Pitch", "DesYaw", "Yaw", "ErrRP", "ErrYaw" ]
+		},
+		{
+			"Type" : "168",
+			"Length" : "30",
+			"Name" : "MAG",
+			"Format" : "QhhhhhhhhhB",
+			"Columns" : [ "TimeUS", "MagX", "MagY", "MagZ", "OfsX", "OfsY", "OfsZ", "MOfsX", "MOfsY", "MOfsZ", "Health" ]
+		},
+		{
+			"Type" : "171",
+			"Length" : "13",
+			"Name" : "MODE",
+			"Format" : "QMB",
+			"Columns" : [ "TimeUS", "Mode", "ModeNum" ]
+		},
+		{
+			"Type" : "196",
+			"Length" : "15",
+			"Name" : "RFND",
+			"Format" : "QCC",
+			"Columns" : [ "TimeUS", "Dist1", "Dist2" ]
+		},
+		{
+			"Type" : "137",
+			"Length" : "49",
+			"Name" : "IMU2",
+			"Format" : "QffffffIIfBB",
+			"Columns" : [ "TimeUS", "GyrX", "GyrY", "GyrZ", "AccX", "AccY", "AccZ", "ErrG", "ErrA", "Temp", "GyHlt", "AcHlt" ]
+		},
+		{
+			"Type" : "150",
+			"Length" : "49",
+			"Name" : "IMU3",
+			"Format" : "QffffffIIfBB",
+			"Columns" : [ "TimeUS", "GyrX", "GyrY", "GyrZ", "AccX", "AccY", "AccZ", "ErrG", "ErrA", "Temp", "GyHlt", "AcHlt" ]
+		},
+		{
+			"Type" : "140",
+			"Length" : "29",
+			"Name" : "AHR2",
+			"Format" : "QccCfLL",
+			"Columns" : [ "TimeUS", "Roll", "Pitch", "Yaw", "Alt", "Lat", "Lng" ]
+		},
+		{
+			"Type" : "182",
+			"Length" : "27",
+			"Name" : "POS",
+			"Format" : "QLLff",
+			"Columns" : [ "TimeUS", "Lat", "Lng", "Alt", "RelAlt" ]
+		},
+		{
+			"Type" : "141",
+			"Length" : "29",
+			"Name" : "SIM",
+			"Format" : "QccCfLL",
+			"Columns" : [ "TimeUS", "Roll", "Pitch", "Yaw", "Alt", "Lat", "Lng" ]
+		},
+		{
+			"Type" : "142",
+			"Length" : "47",
+			"Name" : "EKF1",
+			"Format" : "QccCffffffccc",
+			"Columns" : [ "TimeUS", "Roll", "Pitch", "Yaw", "VN", "VE", "VD", "PN", "PE", "PD", "GX", "GY", "GZ" ]
+		},
+		{
+			"Type" : "143",
+			"Length" : "30",
+			"Name" : "EKF2",
+			"Format" : "Qbbbcchhhhhh",
+			"Columns" : [ "TimeUS", "Ratio", "AZ1bias", "AZ2bias", "VWN", "VWE", "MN", "ME", "MD", "MX", "MY", "MZ" ]
+		},
+		{
+			"Type" : "144",
+			"Length" : "31",
+			"Name" : "EKF3",
+			"Format" : "Qcccccchhhc",
+			"Columns" : [ "TimeUS", "IVN", "IVE", "IVD", "IPN", "IPE", "IPD", "IMX", "IMY", "IMZ", "IVT" ]
+		},
+		{
+			"Type" : "145",
+			"Length" : "31",
+			"Name" : "EKF4",
+			"Format" : "QcccccccbbBBH",
+			"Columns" : [ "TimeUS", "SV", "SP", "SH", "SMX", "SMY", "SMZ", "SVT", "OFN", "EFE", "FS", "TS", "SS" ]
+		},
+		{
+			"Type" : "151",
+			"Length" : "34",
+			"Name" : "TERR",
+			"Format" : "QBLLHffHH",
+			"Columns" : [ "TimeUS", "Status", "Lat", "Lng", "Spacing", "TerrH", "CHeight", "Pending", "Loaded" ]
+		},
+		{
+			"Type" : "152",
+			"Length" : "18",
+			"Name" : "UBX1",
+			"Format" : "QBHBBH",
+			"Columns" : [ "TimeUS", "Instance", "noisePerMS", "jamInd", "aPower", "agcCnt" ]
+		},
+		{
+			"Type" : "153",
+			"Length" : "16",
+			"Name" : "UBX2",
+			"Format" : "QBbBbB",
+			"Columns" : [ "TimeUS", "Instance", "ofsI", "magI", "ofsQ", "magQ" ]
+		},
+		{
+			"Type" : "154",
+			"Length" : "24",
+			"Name" : "UBX3",
+			"Format" : "QBfff",
+			"Columns" : [ "TimeUS", "Instance", "hAcc", "vAcc", "sAcc" ]
+		},
+		{
+			"Type" : "172",
+			"Length" : "42",
+			"Name" : "GRAW",
+			"Format" : "QIHBBddfBbB",
+			"Columns" : [ "TimeUS", "WkMS", "Week", "numSV", "sv", "cpMes", "prMes", "doMes", "mesQI", "cno", "lli" ]
+		},
+		{
+			"Type" : "173",
+			"Length" : "24",
+			"Name" : "GRXH",
+			"Format" : "QdHbBB",
+			"Columns" : [ "TimeUS", "rcvTime", "week", "leapS", "numMeas", "recStat" ]
+		},
+		{
+			"Type" : "174",
+			"Length" : "41",
+			"Name" : "GRXS",
+			"Format" : "QddfBBBHBBBBB",
+			"Columns" : [ "TimeUS", "prMes", "cpMes", "doMes", "gnss", "sv", "freq", "lock", "cno", "prD", "cpD", "doD", "trk" ]
+		},
+		{
+			"Type" : "175",
+			"Length" : "63",
+			"Name" : "SBFE",
+			"Format" : "QIHBBdddfffff",
+			"Columns" : [ "TimeUS", "TOW", "WN", "Mode", "Err", "Lat", "Long", "Height", "Undul", "Vn", "Ve", "Vu", "COG" ]
+		},
+		{
+			"Type" : "155",
+			"Length" : "19",
+			"Name" : "ESC1",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "156",
+			"Length" : "19",
+			"Name" : "ESC2",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "157",
+			"Length" : "19",
+			"Name" : "ESC3",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "158",
+			"Length" : "19",
+			"Name" : "ESC4",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "159",
+			"Length" : "19",
+			"Name" : "ESC5",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "160",
+			"Length" : "19",
+			"Name" : "ESC6",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "161",
+			"Length" : "19",
+			"Name" : "ESC7",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "162",
+			"Length" : "19",
+			"Name" : "ESC8",
+			"Format" : "Qcccc",
+			"Columns" : [ "TimeUS", "RPM", "Volt", "Curr", "Temp" ]
+		},
+		{
+			"Type" : "163",
+			"Length" : "28",
+			"Name" : "EKF5",
+			"Format" : "QBhhhcccCC",
+			"Columns" : [ "TimeUS", "normInnov", "FIX", "FIY", "AFI", "HAGL", "offset", "RI", "meaRng", "errHAGL" ]
+		},
+		{
+			"Type" : "169",
+			"Length" : "30",
+			"Name" : "MAG2",
+			"Format" : "QhhhhhhhhhB",
+			"Columns" : [ "TimeUS", "MagX", "MagY", "MagZ", "OfsX", "OfsY", "OfsZ", "MOfsX", "MOfsY", "MOfsZ", "Health" ]
+		},
+		{
+			"Type" : "170",
+			"Length" : "30",
+			"Name" : "MAG3",
+			"Format" : "QhhhhhhhhhB",
+			"Columns" : [ "TimeUS", "MagX", "MagY", "MagZ", "OfsX", "OfsY", "OfsZ", "MOfsX", "MOfsY", "MOfsZ", "Health" ]
+		},
+		{
+			"Type" : "176",
+			"Length" : "31",
+			"Name" : "ACC1",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "AccX", "AccY", "AccZ" ]
+		},
+		{
+			"Type" : "177",
+			"Length" : "31",
+			"Name" : "ACC2",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "AccX", "AccY", "AccZ" ]
+		},
+		{
+			"Type" : "178",
+			"Length" : "31",
+			"Name" : "ACC3",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "AccX", "AccY", "AccZ" ]
+		},
+		{
+			"Type" : "179",
+			"Length" : "31",
+			"Name" : "GYR1",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "GyrX", "GyrY", "GyrZ" ]
+		},
+		{
+			"Type" : "180",
+			"Length" : "31",
+			"Name" : "GYR2",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "GyrX", "GyrY", "GyrZ" ]
+		},
+		{
+			"Type" : "181",
+			"Length" : "31",
+			"Name" : "GYR3",
+			"Format" : "QQfff",
+			"Columns" : [ "TimeUS", "SampleUS", "GyrX", "GyrY", "GyrZ" ]
+		},
+		{
+			"Type" : "183",
+			"Length" : "35",
+			"Name" : "PIDR",
+			"Format" : "Qffffff",
+			"Columns" : [ "TimeUS", "Des", "P", "I", "D", "FF", "AFF" ]
+		},
+		{
+			"Type" : "184",
+			"Length" : "35",
+			"Name" : "PIDP",
+			"Format" : "Qffffff",
+			"Columns" : [ "TimeUS", "Des", "P", "I", "D", "FF", "AFF" ]
+		},
+		{
+			"Type" : "185",
+			"Length" : "35",
+			"Name" : "PIDY",
+			"Format" : "Qffffff",
+			"Columns" : [ "TimeUS", "Des", "P", "I", "D", "FF", "AFF" ]
+		},
+		{
+			"Type" : "186",
+			"Length" : "35",
+			"Name" : "PIDA",
+			"Format" : "Qffffff",
+			"Columns" : [ "TimeUS", "Des", "P", "I", "D", "FF", "AFF" ]
+		},
+		{
+			"Type" : "187",
+			"Length" : "35",
+			"Name" : "PIDS",
+			"Format" : "Qffffff",
+			"Columns" : [ "TimeUS", "Des", "P", "I", "D", "FF", "AFF" ]
+		},
+		{
+			"Type" : "164",
+			"Length" : "25",
+			"Name" : "BAR2",
+			"Format" : "Qffcf",
+			"Columns" : [ "TimeUS", "Alt", "Press", "Temp", "CRt" ]
+		},
+		{
+			"Type" : "197",
+			"Length" : "25",
+			"Name" : "BAR3",
+			"Format" : "Qffcf",
+			"Columns" : [ "TimeUS", "Alt", "Press", "Temp", "CRt" ]
+		},
+		{
+			"Type" : "188",
+			"Length" : "35",
+			"Name" : "VIBE",
+			"Format" : "QfffIII",
+			"Columns" : [ "TimeUS", "VibeX", "VibeY", "VibeZ", "Clip0", "Clip1", "Clip2" ]
+		},
+		{
+			"Type" : "189",
+			"Length" : "43",
+			"Name" : "IMT",
+			"Format" : "Qffffffff",
+			"Columns" : [ "TimeUS", "DelT", "DelvT", "DelAX", "DelAY", "DelAZ", "DelVX", "DelVY", "DelVZ" ]
+		},
+		{
+			"Type" : "190",
+			"Length" : "43",
+			"Name" : "IMT2",
+			"Format" : "Qffffffff",
+			"Columns" : [ "TimeUS", "DelT", "DelvT", "DelAX", "DelAY", "DelAZ", "DelVX", "DelVY", "DelVZ" ]
+		},
+		{
+			"Type" : "191",
+			"Length" : "43",
+			"Name" : "IMT3",
+			"Format" : "Qffffffff",
+			"Columns" : [ "TimeUS", "DelT", "DelvT", "DelAX", "DelAY", "DelAZ", "DelVX", "DelVY", "DelVZ" ]
+		},
+		{
+			"Type" : "192",
+			"Length" : "24",
+			"Name" : "ORGN",
+			"Format" : "QBLLe",
+			"Columns" : [ "TimeUS", "Type", "Lat", "Lng", "Alt" ]
+		},
+		{
+			"Type" : "193",
+			"Length" : "19",
+			"Name" : "RPM",
+			"Format" : "Qff",
+			"Columns" : [ "TimeUS", "rpm1", "rpm2" ]
+		},
+		{
+			"Type" : "2",
+			"Length" : "30",
+			"Name" : "PM",
+			"Format" : "QIHIhhhBH",
+			"Columns" : [ "TimeUS", "LTime", "MLC", "gDt", "GDx", "GDy", "GDz", "I2CErr", "INSErr" ]
+		},
+		{
+			"Type" : "3",
+			"Length" : "14",
+			"Name" : "STRT",
+			"Format" : "QBH",
+			"Columns" : [ "TimeUS", "SType", "CTot" ]
+		},
+		{
+			"Type" : "0",
+			"Length" : "27",
+			"Name" : "CTUN",
+			"Format" : "Qcccchhf",
+			"Columns" : [ "TimeUS", "NavRoll", "Roll", "NavPitch", "Pitch", "ThrOut", "RdrOut", "AccY" ]
+		},
+		{
+			"Type" : "1",
+			"Length" : "33",
+			"Name" : "NTUN",
+			"Format" : "QCfccccfI",
+			"Columns" : [ "TimeUS", "Yaw", "WpDist", "TargBrg", "NavBrg", "AltErr", "Arspd", "Alt", "GSpdCM" ]
+		},
+		{
+			"Type" : "8",
+			"Length" : "31",
+			"Name" : "SONR",
+			"Format" : "QHfffBBf",
+			"Columns" : [ "TimeUS", "DistCM", "Volt", "BaroAlt", "GSpd", "Thr", "Cnt", "Corr" ]
+		},
+		{
+			"Type" : "9",
+			"Length" : "14",
+			"Name" : "ARM",
+			"Format" : "QBH",
+			"Columns" : [ "TimeUS", "ArmState", "ArmChecks" ]
+		},
+		{
+			"Type" : "148",
+			"Length" : "27",
+			"Name" : "ATRP",
+			"Format" : "QBBcfff",
+			"Columns" : [ "TimeUS", "Type", "State", "Servo", "Demanded", "Achieved", "P" ]
+		},
+		{
+			"Type" : "10",
+			"Length" : "20",
+			"Name" : "STAT",
+			"Format" : "QBfBBBB",
+			"Columns" : [ "TimeUS", "isFlying", "isFlyProb", "Armed", "Safety", "Crash", "Still" ]
+		},
+		{
+			"Type" : "11",
+			"Length" : "28",
+			"Name" : "OF",
+			"Format" : "QBffff",
+			"Columns" : [ "TimeUS", "Qual", "flowX", "flowY", "bodyX", "bodyY" ]
+		},
+		{
+			"Type" : "6",
+			"Length" : "59",
+			"Name" : "TECS",
+			"Format" : "Qffffffffffff",
+			"Columns" : [ "TimeUS", "h", "dh", "h_dem", "dh_dem", "sp_dem", "sp", "dsp", "ith", "iph", "th", "ph", "dsp_dem" ]
+		}
+	]
+}

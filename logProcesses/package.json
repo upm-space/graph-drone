@@ -1,0 +1,25 @@
+{
+  "name": "log-processes",
+  "version": "1.0.0",
+  "description": "Several scripts used to read and process the data from the flight logs",
+  "main": "entrypoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upm-space/graph-drone.git"
+  },
+  "keywords": [
+    "log",
+    "analysis",
+    "flightlog",
+    "graphs"
+  ],
+  "author": "",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/upm-space/graph-drone/issues"
+  },
+  "homepage": "https://github.com/upm-space/graph-drone#readme"
+}
