@@ -1,0 +1,71 @@
+PERFORMANCE COUNTERS PRE-FLIGHT
+
+sd write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+navigator: 5 events, 0 overruns, 167us elapsed, 33us avg, min 33us max 34us 0.548us rms
+mc_att_control: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+sd drop: 0 events
+mavlink_txe: 0 events
+mavlink_el: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+mavlink_txe: 26 events
+mavlink_el: 646 events, 0 overruns, 61999us elapsed, 95us avg, min 37us max 1908us 153.274us rms
+mavlink_txe: 18 events
+mavlink_el: 693 events, 0 overruns, 260776us elapsed, 376us avg, min 49us max 164403us 6267.791us rms
+io latency: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+io write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+io update: 322 events, 0 overruns, 737244us elapsed, 2289us avg, min 1850us max 46120us 2483.463us rms
+io_txns: 1732 events, 0 overruns, 694537us elapsed, 401us avg, min 130us max 2710us 226.591us rms
+sensors: 1876 events, 0 overruns, 186880us elapsed, 99us avg, min 62us max 394us 32.007us rms
+ctrl_latency: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+mpu9250_dupe: 1947 events
+mpu9250_reset: 0 events
+mpu9250_good_trans: 7619 events
+mpu9250_bad_reg: 0 events
+mpu9250_bad_trans: 0 events
+mpu9250_read: 9568 events, 0 overruns, 655130us elapsed, 68us avg, min 41us max 94us 14.870us rms
+mpu9250_gyro_read: 0 events
+mpu9250_acc_read: 2 events
+mpu9250_mag_duplicates: 6773 events
+mpu9250_mag_overflows: 0 events
+mpu9250_mag_overruns: 104 events
+mpu9250_mag_errors: 0 events
+mpu9250_mag_reads: 0 events
+hmc5883_conf_err: 0 events
+hmc5883_rng_err: 0 events
+hmc5883_buf_of: 873 events
+hmc5883_com_err: 0 events
+hmc5883_read: 935 events, 0 overruns, 936621us elapsed, 1001us avg, min 870us max 2943us 270.502us rms
+adc_samples: 7560 events, 0 overruns, 19487us elapsed, 2us avg, min 2us max 3us 0.494us rms
+ms5611_buf_of: 259 events
+ms5611_com_err: 0 events
+ms5611_measure: 351 events, 0 overruns, 2422us elapsed, 6us avg, min 6us max 91us 4.702us rms
+ms5611_read: 351 events, 0 overruns, 29791us elapsed, 84us avg, min 10us max 1758us 140.812us rms
+dma_alloc: 7 events
+
+LOAD PRE-FLIGHT
+
+Processes: 20 total, 2 running, 18 sleeping
+CPU usage: 35.70% tasks, 8.26% sched, 56.03% idle
+DMA Memory: 5120 total, 2560 used 2560 peak
+Uptime: 11.429s total, 7.142s idle
+
+ PID COMMAND                   CPU(ms) CPU(%)  USED/STACK PRIO(BASE) STATE 
+   0 Idle Task                    7154 56.033     0/    0   0 (  0)  READY 
+   1 hpwork                        224  2.479   760/ 1592 192 (192)  w:sem 
+   2 lpwork                         35  0.165   572/ 1592  50 ( 50)  READY 
+   3 init                         1604  0.000  1360/ 2496 100 (100)  w:sem 
+ 276 sdlog2_writer                   8  1.322  1140/ 2040  95 ( 95)  READY 
+ 101 gps                            28  0.165   892/ 1192 220 (220)  w:sem 
+ 103 dataman                        18  0.000   756/ 1192  90 ( 90)  w:sem 
+ 141 sensors                       299  2.809  1068/ 1696 250 (250)  w:sem 
+ 143 commander                     206  1.818  2788/ 3192 140 (140)  w:sig 
+ 149 px4io                         132  2.644   880/ 1392 240 (240)  w:sem 
+ 157 mavlink_if0                   119  1.322  1716/ 2392 100 (100)  w:sig 
+ 158 mavlink_rcv_if0                 0  0.000   924/ 2096 175 (175)  w:sem 
+ 172 mavlink_if1                    77  0.826  1716/ 2392 100 (100)  READY 
+ 174 mavlink_rcv_if1                 0  0.000   924/ 2096 175 (175)  w:sem 
+ 275 commander_low_prio              0  0.000   572/ 2992  50 ( 50)  w:sem 
+ 214 sdlog2                         51  4.297  2580/ 3392 177 (177)  RUN   
+ 250 ekf2                          724 13.553  4964/ 5792 250 (250)  w:sem 
+ 255 mc_att_control                 23  2.314  1252/ 1496 250 (250)  w:sem 
+ 262 mc_pos_control                 41  1.983  1100/ 1896 250 (250)  w:sem 
+ 267 navigator                       2  0.000   964/ 1496 105 (105)  w:sem 

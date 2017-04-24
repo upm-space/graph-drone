@@ -1,0 +1,5 @@
+2017_02_24_13_40_45: ARMED by RC
+2017_02_24_13_40_45: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_13_40_45: [blackbox] recording: 13_40_45.px4log
+2017_02_24_13_40_53: MANUAL CONTROL LOST (at t=646942ms)
+2017_02_24_13_40_53: no rc

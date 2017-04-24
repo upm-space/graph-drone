@@ -1,0 +1,70 @@
+PERFORMANCE COUNTERS POST-FLIGHT
+
+sd write: 4407 events, 0 overruns, 14695102us elapsed, 3334us avg, min 9us max 55609us 3149.433us rms
+navigator: 22 events, 0 overruns, 898us elapsed, 40us avg, min 33us max 168us 28.593us rms
+mc_att_control: 4682 events, 0 overruns, 491625us elapsed, 105us avg, min 89us max 548us 16.644us rms
+sd drop: 0 events
+mavlink_txe: 0 events
+mavlink_el: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+mavlink_txe: 0 events
+mavlink_el: 1917 events, 0 overruns, 265149us elapsed, 138us avg, min 39us max 3710us 331.321us rms
+mavlink_txe: 9 events
+mavlink_el: 2165 events, 0 overruns, 389527us elapsed, 179us avg, min 50us max 4153us 4203.145us rms
+io latency: 4684 events, 0 overruns, 2462934us elapsed, 525us avg, min 421us max 2207us 157.759us rms
+io write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+io update: 4840 events, 0 overruns, 3578626us elapsed, 739us avg, min 257us max 5051us 1089.927us rms
+io_txns: 10194 events, 0 overruns, 3348918us elapsed, 328us avg, min 146us max 3234us 202.316us rms
+sensors: 5570 events, 0 overruns, 562489us elapsed, 100us avg, min 67us max 366us 26.964us rms
+ctrl_latency: 4686 events, 0 overruns, 4500318us elapsed, 960us avg, min 531us max 3303us 594.151us rms
+mpu9250_dupe: 5610 events
+mpu9250_reset: 0 events
+mpu9250_good_trans: 22276 events
+mpu9250_bad_reg: 0 events
+mpu9250_bad_trans: 0 events
+mpu9250_read: 27887 events, 0 overruns, 1909610us elapsed, 68us avg, min 41us max 95us 16.100us rms
+mpu9250_gyro_read: 0 events
+mpu9250_acc_read: 0 events
+mpu9250_mag_duplicates: 19804 events
+mpu9250_mag_overflows: 0 events
+mpu9250_mag_overruns: 316 events
+mpu9250_mag_errors: 0 events
+mpu9250_mag_reads: 0 events
+hmc5883_conf_err: 0 events
+hmc5883_rng_err: 0 events
+hmc5883_buf_of: 2531 events
+hmc5883_com_err: 0 events
+hmc5883_read: 2531 events, 0 overruns, 2876448us elapsed, 1136us avg, min 870us max 4210us 523.515us rms
+adc_samples: 22310 events, 0 overruns, 56176us elapsed, 2us avg, min 2us max 3us 0.541us rms
+ms5611_buf_of: 650 events
+ms5611_com_err: 0 events
+ms5611_measure: 867 events, 0 overruns, 7042us elapsed, 8us avg, min 6us max 445us 16.915us rms
+ms5611_read: 867 events, 0 overruns, 79134us elapsed, 91us avg, min 11us max 2291us 158.331us rms
+dma_alloc: 1 events
+
+LOAD POST-FLIGHT
+
+Processes: 19 total, 2 running, 17 sleeping
+CPU usage: 37.26% tasks, 5.13% sched, 57.60% idle
+DMA Memory: 5120 total, 2048 used 2560 peak
+Uptime: 30.560s total, 16.408s idle
+
+ PID COMMAND                   CPU(ms) CPU(%)  USED/STACK PRIO(BASE) STATE 
+   0 Idle Task                   16407 57.604     0/    0   0 (  0)  READY 
+   1 hpwork                        767  2.661   828/ 1592 192 (192)  w:sem 
+   2 lpwork                        100  0.380   572/ 1592  50 ( 50)  READY 
+   3 init                         1601  0.000  1360/ 2496 100 (100)  w:sem 
+ 101 gps                            75  0.190   796/ 1192 220 (220)  w:sem 
+ 103 dataman                        18  0.000   748/ 1192  90 ( 90)  w:sem 
+ 141 sensors                       936  3.231  1092/ 1696 250 (250)  w:sem 
+ 143 commander                     585  1.901  2772/ 3192 140 (140)  READY 
+ 149 px4io                         809  3.041   880/ 1392 240 (240)  w:sem 
+ 157 mavlink_if0                   378  1.235  1716/ 2392 100 (100)  READY 
+ 158 mavlink_rcv_if0                 1  0.000   956/ 2096 175 (175)  w:sem 
+ 172 mavlink_if1                   268  0.950  1740/ 2392 100 (100)  READY 
+ 174 mavlink_rcv_if1                 2  0.000   956/ 2096 175 (175)  w:sem 
+ 275 commander_low_prio              1  0.000   684/ 2992  50 ( 50)  w:sem 
+ 214 sdlog2                       1971  0.000  2580/ 3392 177 (177)  RUN   
+ 250 ekf2                         4103 18.155  4964/ 5792 250 (250)  w:sem 
+ 255 mc_att_control                662  3.041  1268/ 1496 250 (250)  w:sem 
+ 262 mc_pos_control                597  2.471  1092/ 1896 250 (250)  w:sem 
+ 267 navigator                       3  0.000   980/ 1496 105 (105)  w:sem 

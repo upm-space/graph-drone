@@ -1,0 +1,26 @@
+2017_03_28_18_36_29: DISARMED by RC
+2017_03_28_18_36_41: ARMED by RC
+2017_03_28_18_36_42: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_18_36_42: [blackbox] recording: 18_36_41.px4log
+2017_03_28_18_36_42: Takeoff detected
+2017_03_28_18_37_47: DISARMED by RC
+2017_03_28_18_37_49: [blackbox] stopped (2365 drops)
+2017_03_28_18_37_50: Landing detected
+2017_03_28_18_37_54: MANUAL CONTROL LOST (at t=89662ms)
+2017_03_28_18_38_24: MANUAL CONTROL REGAINED after 30512ms
+2017_03_28_18_38_26: ARMED by RC
+2017_03_28_18_38_26: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_18_38_26: [blackbox] recording: 18_38_26.px4log
+2017_03_28_18_38_29: Takeoff detected
+2017_03_28_18_39_46: DISARMED by RC
+2017_03_28_18_39_47: [blackbox] stopped (2222 drops)
+2017_03_28_18_39_48: Landing detected
+2017_03_28_18_40_09: ARMED by RC
+2017_03_28_18_40_09: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_18_40_09: [blackbox] recording: 18_40_09.px4log
+2017_03_28_18_40_10: Takeoff detected
+2017_03_28_18_42_07: LOW BATTERY, RETURN TO LAND ADVISED
+2017_03_28_18_42_09: DISARMED by RC
+2017_03_28_18_42_11: [blackbox] stopped (27781 drops)
+2017_03_28_18_42_11: Landing detected
+2017_03_28_18_42_15: MANUAL CONTROL LOST (at t=351244ms)

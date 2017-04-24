@@ -1,0 +1,5 @@
+2017_02_28_17_10_27: ARMED by RC
+2017_02_28_17_10_28: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_17_10_28: [blackbox] recording: 17_10_28.px4log
+2017_02_28_17_10_30: DISARMED by RC
+2017_02_28_17_10_31: [blackbox] stopped (0 drops)

@@ -1,0 +1,43 @@
+2017_03_28_19_07_46: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_07_47: [blackbox] recording: 19_07_46.px4log
+2017_03_28_19_07_48: DISARMED by RC
+2017_03_28_19_07_50: [blackbox] stopped (597 drops)
+2017_03_28_19_18_08: ARMED by RC
+2017_03_28_19_18_08: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_18_08: [blackbox] recording: 19_18_08.px4log
+2017_03_28_19_18_09: DISARMED by RC
+2017_03_28_19_18_11: [blackbox] stopped (0 drops)
+2017_03_28_19_18_12: MANUAL CONTROL LOST (at t=1263055ms)
+2017_03_28_19_28_30: MANUAL CONTROL REGAINED after 622227ms
+2017_03_28_19_28_32: ARMED by RC
+2017_03_28_19_28_32: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_28_32: [blackbox] recording: 19_28_32.px4log
+2017_03_28_19_28_33: DISARMED by RC
+2017_03_28_19_28_35: [blackbox] stopped (0 drops)
+2017_03_28_19_28_36: MANUAL CONTROL LOST (at t=1891397ms)
+2017_03_28_19_38_56: MANUAL CONTROL REGAINED after 624209ms
+2017_03_28_19_38_58: ARMED by RC
+2017_03_28_19_38_58: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_38_58: [blackbox] recording: 19_38_58.px4log
+2017_03_28_19_39_00: DISARMED by RC
+2017_03_28_19_39_01: [blackbox] stopped (0 drops)
+2017_03_28_19_39_05: MANUAL CONTROL LOST (at t=2523911ms)
+2017_03_28_19_49_20: MANUAL CONTROL REGAINED after 619050ms
+2017_03_28_19_49_21: ARMED by RC
+2017_03_28_19_49_21: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_49_21: [blackbox] recording: 19_49_21.px4log
+2017_03_28_19_49_23: DISARMED by RC
+2017_03_28_19_49_24: [blackbox] stopped (0 drops)
+2017_03_28_19_58_45: ARMED by RC
+2017_03_28_19_58_46: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_19_58_46: [blackbox] recording: 19_58_45.px4log
+2017_03_28_19_58_47: DISARMED by RC
+2017_03_28_19_58_48: [blackbox] stopped (0 drops)
+2017_03_28_19_58_49: MANUAL CONTROL LOST (at t=3715218ms)
+2017_03_28_20_09_07: MANUAL CONTROL REGAINED after 622448ms
+2017_03_28_20_09_09: ARMED by RC
+2017_03_28_20_09_09: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_20_09_09: [blackbox] recording: 20_09_09.px4log
+2017_03_28_20_09_11: DISARMED by RC
+2017_03_28_20_09_12: [blackbox] stopped (0 drops)
+2017_03_28_20_11_38: MANUAL CONTROL LOST (at t=4488394ms)

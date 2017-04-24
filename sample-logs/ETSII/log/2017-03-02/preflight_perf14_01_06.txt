@@ -1,0 +1,73 @@
+PERFORMANCE COUNTERS PRE-FLIGHT
+
+sd write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+navigator: 635 events, 0 overruns, 29568us elapsed, 46us avg, min 33us max 967us 258.276us rms
+mc_att_control: 159448 events, 0 overruns, 17236929us elapsed, 108us avg, min 93us max 266us 43.792us rms
+sd drop: 1890 events
+mavlink_txe: 26745 events
+mavlink_el: 194668 events, 0 overruns, 32232623us elapsed, 165us avg, min 60us max 29326us 647.445us rms
+mavlink_txe: 36 events
+mavlink_el: 55939 events, 0 overruns, 7122331us elapsed, 127us avg, min 39us max 3288us 635.157us rms
+mavlink_txe: 0 events
+mavlink_el: 62623 events, 0 overruns, 10932723us elapsed, 174us avg, min 50us max 248255us 3415.036us rms
+io latency: 159450 events, 0 overruns, 87025943us elapsed, 545us avg, min 460us max 1539us 131.093us rms
+io write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+io update: 159451 events, 0 overruns, 104518728us elapsed, 655us avg, min 257us max 4320us 2112.586us rms
+io_txns: 303379 events, 0 overruns, 97584644us elapsed, 321us avg, min 133us max 2165us 428.768us rms
+sensors: 159453 events, 0 overruns, 15932703us elapsed, 99us avg, min 64us max 2426us 85.484us rms
+ctrl_latency: 159454 events, 0 overruns, 141428478us elapsed, 886us avg, min 538us max 2455us 1115.306us rms
+mpu9250_dupe: 163751 events
+mpu9250_reset: 0 events
+mpu9250_good_trans: 635781 events
+mpu9250_bad_reg: 0 events
+mpu9250_bad_trans: 0 events
+mpu9250_read: 799534 events, 0 overruns, 54665116us elapsed, 68us avg, min 41us max 95us 39.118us rms
+mpu9250_gyro_read: 0 events
+mpu9250_acc_read: 1 events
+mpu9250_mag_duplicates: 565135 events
+mpu9250_mag_overflows: 0 events
+mpu9250_mag_overruns: 8877 events
+mpu9250_mag_errors: 0 events
+mpu9250_mag_reads: 0 events
+hmc5883_conf_err: 0 events
+hmc5883_rng_err: 0 events
+hmc5883_buf_of: 71388 events
+hmc5883_com_err: 0 events
+hmc5883_read: 71388 events, 0 overruns, 80512171us elapsed, 1127us avg, min 870us max 3690us 1198.809us rms
+adc_samples: 639630 events, 0 overruns, 1632543us elapsed, 2us avg, min 2us max 3us 1.290us rms
+ms5611_buf_of: 18658 events
+ms5611_com_err: 0 events
+ms5611_measure: 24878 events, 0 overruns, 244452us elapsed, 9us avg, min 6us max 2246us 139.976us rms
+ms5611_read: 24878 events, 0 overruns, 2172370us elapsed, 87us avg, min 11us max 2578us 422.056us rms
+dma_alloc: 3 events
+
+LOAD PRE-FLIGHT
+
+Processes: 22 total, 4 running, 18 sleeping
+CPU usage: 41.71% tasks, 28.15% sched, 30.14% idle
+DMA Memory: 5120 total, 2560 used 2560 peak
+Uptime: 4429.876s total, 2637.867s idle
+
+ PID COMMAND                   CPU(ms) CPU(%)  USED/STACK PRIO(BASE) STATE 
+   0 Idle Task                 2637866 30.140     0/    0   0 (  0)  READY 
+   1 hpwork                     113422  2.102   820/ 1592 192 (192)  w:sem 
+   2 lpwork                      20734  0.116   572/ 1592  50 ( 50)  READY 
+   3 init                         1496  0.000  1360/ 2496 100 (100)  w:sem 
+ 297 sdlog2_writer                  31  3.621  1140/ 2040  95 ( 95)  w:sem 
+ 101 gps                          9137  0.116   796/ 1192 220 (220)  w:sem 
+ 103 dataman                        18  0.000   740/ 1192  90 ( 90)  w:sem 
+ 141 sensors                    144927  2.336  1068/ 1696 250 (250)  w:sem 
+ 143 commander                   86812  1.285  2804/ 3192 140 (140)  READY 
+ 149 px4io                      150068  2.686   884/ 1392 240 (240)  w:sem 
+ 157 mavlink_if0                 61182  1.051  1716/ 2392 100 (100)  READY 
+ 158 mavlink_rcv_if0               313  0.000   956/ 2096 175 (175)  READY 
+ 172 mavlink_if1                 45465  0.584  1716/ 2392 100 (100)  READY 
+ 174 mavlink_rcv_if1               316  0.000   956/ 2096 175 (175)  w:sem 
+ 280 commander_low_prio            150  0.000   588/ 2992  50 ( 50)  w:sem 
+ 208 mavlink_if2                145223  5.257  1852/ 2392 100 (100)  READY 
+ 209 mavlink_rcv_if2              5651  2.803  1532/ 2096 175 (175)  READY 
+ 215 sdlog2                       4224  3.271  2580/ 3392 177 (177)  RUN   
+ 252 ekf2                       688784 11.331  4964/ 5792 250 (250)  w:sem 
+ 262 mc_att_control             151023  2.453  1268/ 1496 250 (250)  w:sem 
+ 266 mc_pos_control             161570  2.686  1092/ 1896 250 (250)  w:sem 
+ 275 navigator                     335  0.000   956/ 1496 105 (105)  w:sem 

@@ -1,0 +1,6 @@
+2000_01_01_01_04_48: Not ready to fly: Sensors not set up correctly
+2000_01_01_01_04_48: Warning: Primary compass not found
+2000_01_01_01_04_49: PREFLIGHT FAIL: ACCEL #0 UNCALIBRATED
+2000_01_01_01_04_49: Warning: Primary accelerometer not found
+2000_01_01_01_04_49: PREFLIGHT FAIL: GYRO #0 UNCALIBRATED
+2000_01_01_01_04_49: Warning: Primary gyro not found

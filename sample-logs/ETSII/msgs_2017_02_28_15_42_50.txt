@@ -1,0 +1,58 @@
+2017_02_28_15_42_50: GPS fix lost
+2017_02_28_15_43_06: GPS fix lost
+2017_02_28_15_43_09: GPS fix lost
+2017_02_28_15_43_11: GPS fix lost
+2017_02_28_15_45_03: ARMED by RC
+2017_02_28_15_45_03: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_15_45_03: [blackbox] recording: 15_45_03.px4log
+2017_02_28_15_45_09: Takeoff detected
+2017_02_28_15_45_17: DISARMED by RC
+2017_02_28_15_45_18: [blackbox] stopped (9539 drops)
+2017_02_28_15_45_19: Landing detected
+2017_02_28_15_45_24: MANUAL CONTROL LOST (at t=372942ms)
+2017_02_28_15_47_09: MANUAL CONTROL REGAINED after 105715ms
+2017_02_28_15_47_47: ARMED by RC
+2017_02_28_15_47_47: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_15_47_47: [blackbox] recording: 15_47_47.px4log
+2017_02_28_15_47_50: Takeoff detected
+2017_02_28_15_47_55: DISARMED by RC
+2017_02_28_15_47_56: GPS fix lost
+2017_02_28_15_47_56: [blackbox] stopped (5120 drops)
+2017_02_28_15_47_57: Landing detected
+2017_02_28_15_48_03: MANUAL CONTROL LOST (at t=532192ms)
+2017_02_28_15_49_13: GPS fix lost
+2017_02_28_15_49_21: MANUAL CONTROL REGAINED after 78814ms
+2017_02_28_15_49_23: ARMED by RC
+2017_02_28_15_49_23: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_15_49_23: [blackbox] recording: 15_49_23.px4log
+2017_02_28_15_49_25: Takeoff detected
+2017_02_28_15_49_32: DISARMED by RC
+2017_02_28_15_49_33: GPS fix lost
+2017_02_28_15_49_33: [blackbox] stopped (4843 drops)
+2017_02_28_15_49_34: Landing detected
+2017_02_28_15_49_39: GPS fix lost
+2017_02_28_15_49_55: MANUAL CONTROL LOST (at t=644124ms)
+2017_02_28_15_59_41: MANUAL CONTROL REGAINED after 586323ms
+2017_02_28_15_59_46: MANUAL CONTROL LOST (at t=1235277ms)
+2017_02_28_15_59_54: MANUAL CONTROL REGAINED after 8106ms
+2017_02_28_16_00_00: ARMED by RC
+2017_02_28_16_00_00: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_16_00_00: [blackbox] recording: 15_59_59.px4log
+2017_02_28_16_00_02: DISARMED by RC
+2017_02_28_16_00_03: [blackbox] stopped (157 drops)
+2017_02_28_16_00_24: ARMED by RC
+2017_02_28_16_00_24: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_16_00_25: [blackbox] recording: 16_00_24.px4log
+2017_02_28_16_00_26: Takeoff detected
+2017_02_28_16_00_46: DISARMED by RC
+2017_02_28_16_00_47: [blackbox] stopped (5478 drops)
+2017_02_28_16_00_48: Landing detected
+2017_02_28_16_00_57: MANUAL CONTROL LOST (at t=1306530ms)
+2017_02_28_16_02_16: GPS fix lost
+2017_02_28_16_02_16: GPS fix regained
+2017_02_28_16_02_22: GPS fix lost
+2017_02_28_16_02_26: GPS fix regained
+2017_02_28_16_05_28: GPS fix lost
+2017_02_28_16_07_48: GPS fix regained
+2017_02_28_16_07_58: GPS fix lost
+2017_02_28_16_07_58: GPS fix regained

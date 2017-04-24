@@ -1,0 +1,16 @@
+2017_03_02_23_19_58: main state transition denied
+2017_03_02_23_19_59: main state transition denied
+2017_03_02_23_20_00: main state transition denied
+2017_03_02_23_20_00: main state transition denied
+2017_03_02_23_20_03: ARMED by RC
+2017_03_02_23_20_05: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_23_20_05: [blackbox] recording: 23_20_03.px4log
+2017_03_02_23_20_05: DISARMED by RC
+2017_03_02_23_20_08: ARMED by RC
+2017_03_02_23_20_08: [blackbox] stopped (0 drops)
+2017_03_02_23_20_11: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_23_20_11: main state transition denied
+2017_03_02_23_20_11: main state transition denied
+2017_03_02_23_20_11: [blackbox] recording: 23_20_08.px4log
+2017_03_02_23_20_15: DISARMED by RC
+2017_03_28_16_43_37: [blackbox] stopped (0 drops)

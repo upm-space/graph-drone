@@ -1,0 +1,2 @@
+2017_03_02_21_29_37: CRITICAL BATTERY, SHUT SYSTEM DOWN
+2017_03_02_21_29_39: Not ready to fly: Sensors not set up correctly

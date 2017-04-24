@@ -1,0 +1,71 @@
+PERFORMANCE COUNTERS PRE-FLIGHT
+
+sd write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+navigator: 12 events, 0 overruns, 386us elapsed, 32us avg, min 30us max 38us 2.368us rms
+mc_att_control: 1469 events, 0 overruns, 149794us elapsed, 101us avg, min 91us max 395us 14.766us rms
+sd drop: 0 events
+mavlink_txe: 0 events
+mavlink_el: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+mavlink_txe: 21 events
+mavlink_el: 1219 events, 0 overruns, 128540us elapsed, 105us avg, min 37us max 2519us 186.814us rms
+mavlink_txe: 22 events
+mavlink_el: 1324 events, 0 overruns, 410658us elapsed, 310us avg, min 49us max 202674us 5586.883us rms
+io latency: 1471 events, 0 overruns, 725253us elapsed, 493us avg, min 420us max 1099us 65.935us rms
+io write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+io update: 1821 events, 0 overruns, 1796717us elapsed, 986us avg, min 258us max 45962us 1425.508us rms
+io_txns: 4823 events, 0 overruns, 1692287us elapsed, 350us avg, min 131us max 2375us 199.491us rms
+sensors: 3499 events, 0 overruns, 361345us elapsed, 103us avg, min 62us max 442us 34.187us rms
+ctrl_latency: 1472 events, 0 overruns, 1283047us elapsed, 871us avg, min 533us max 2067us 402.552us rms
+mpu9250_dupe: 3598 events
+mpu9250_reset: 0 events
+mpu9250_good_trans: 14089 events
+mpu9250_bad_reg: 0 events
+mpu9250_bad_trans: 0 events
+mpu9250_read: 17689 events, 0 overruns, 1210948us elapsed, 68us avg, min 41us max 94us 14.889us rms
+mpu9250_gyro_read: 0 events
+mpu9250_acc_read: 2 events
+mpu9250_mag_duplicates: 12510 events
+mpu9250_mag_overflows: 0 events
+mpu9250_mag_overruns: 201 events
+mpu9250_mag_errors: 0 events
+mpu9250_mag_reads: 0 events
+hmc5883_conf_err: 0 events
+hmc5883_rng_err: 0 events
+hmc5883_buf_of: 1613 events
+hmc5883_com_err: 0 events
+hmc5883_read: 1675 events, 0 overruns, 1754659us elapsed, 1047us avg, min 870us max 3465us 348.171us rms
+adc_samples: 14060 events, 0 overruns, 35859us elapsed, 2us avg, min 2us max 3us 0.497us rms
+ms5611_buf_of: 448 events
+ms5611_com_err: 0 events
+ms5611_measure: 604 events, 0 overruns, 5989us elapsed, 9us avg, min 6us max 1395us 57.169us rms
+ms5611_read: 603 events, 0 overruns, 50431us elapsed, 83us avg, min 10us max 1932us 126.173us rms
+dma_alloc: 7 events
+
+LOAD PRE-FLIGHT
+
+Processes: 20 total, 2 running, 18 sleeping
+CPU usage: 37.98% tasks, 16.13% sched, 45.89% idle
+DMA Memory: 5120 total, 2560 used 2560 peak
+Uptime: 17.934s total, 11.303s idle
+
+ PID COMMAND                   CPU(ms) CPU(%)  USED/STACK PRIO(BASE) STATE 
+   0 Idle Task                   11303 45.894     0/    0   0 (  0)  READY 
+   1 hpwork                        406  2.346   760/ 1592 192 (192)  w:sem 
+   2 lpwork                         65  0.146   572/ 1592  50 ( 50)  w:sig 
+   3 init                         1602  0.000  1380/ 2496 100 (100)  w:sem 
+ 276 sdlog2_writer                  31  4.545  1140/ 2040  95 ( 95)  w:sem 
+ 101 gps                            54  0.146   924/ 1192 220 (220)  w:sig 
+ 103 dataman                        18  0.000   740/ 1192  90 ( 90)  w:sem 
+ 141 sensors                       524  2.639  1068/ 1696 250 (250)  w:sem 
+ 143 commander                     336  1.466  2788/ 3192 140 (140)  w:sig 
+ 149 px4io                         344  2.785  1044/ 1392 240 (240)  w:sem 
+ 157 mavlink_if0                   215  1.173  1716/ 2392 100 (100)  READY 
+ 158 mavlink_rcv_if0                 1  0.000   924/ 2096 175 (175)  w:sem 
+ 172 mavlink_if1                   145  0.733  1716/ 2392 100 (100)  READY 
+ 174 mavlink_rcv_if1                 0  0.000   924/ 2096 175 (175)  w:sem 
+ 275 commander_low_prio              0  0.000   732/ 2992  50 ( 50)  w:sem 
+ 214 sdlog2                         59  3.958  2580/ 3392 177 (177)  RUN   
+ 250 ekf2                         1684 12.756  4964/ 5792 250 (250)  w:sem 
+ 255 mc_att_control                216  2.639  1268/ 1496 250 (250)  w:sem 
+ 262 mc_pos_control                211  2.639   972/ 1896 250 (250)  w:sem 
+ 267 navigator                       2  0.000   876/ 1496 105 (105)  w:sem 

@@ -1,0 +1,7 @@
+2017_02_24_12_24_47: MANUAL CONTROL LOST (at t=14940ms)
+2017_02_24_12_35_00: MANUAL CONTROL REGAINED after 617991ms
+2017_02_24_12_35_03: ARMED by RC
+2017_02_24_12_35_03: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_12_35_03: [blackbox] recording: 12_35_03.px4log
+2017_02_24_12_35_05: DISARMED by RC
+2017_02_24_12_35_06: [blackbox] stopped (0 drops)

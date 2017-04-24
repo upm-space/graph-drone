@@ -1,0 +1,4 @@
+2017_03_28_17_52_53: DISARMED by RC
+2017_03_28_17_56_22: ARMING DENIED: Flying with USB is not safe
+2017_03_28_17_56_23: NOT ARMING: Preflight checks failed
+2017_03_28_17_57_28: USB disconnected, rebooting.

@@ -1,0 +1,9 @@
+2017_03_02_12_34_22: CRITICAL BATTERY, SHUT SYSTEM DOWN
+2017_03_02_12_34_24: Not ready to fly: Sensors not set up correctly
+2017_03_02_12_44_41: CAUTION: Avionics power low:   4.87 Volt
+2017_03_02_12_44_41: ARMED by RC
+2017_03_02_12_44_41: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_44_41: [blackbox] recording: 12_44_41.px4log
+2017_03_02_12_44_43: DISARMED by RC
+2017_03_02_12_44_44: [blackbox] stopped (0 drops)
+2017_03_02_12_44_45: MANUAL CONTROL LOST (at t=638825ms)

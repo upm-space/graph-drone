@@ -1,0 +1,92 @@
+2017_03_02_12_23_00: ARMED by RC
+2017_03_02_12_23_01: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_23_01: [blackbox] recording: 12_23_00.px4log
+2017_03_02_12_23_02: DISARMED by RC
+2017_03_02_12_23_04: [blackbox] stopped (573 drops)
+2017_03_02_12_23_06: ARMED by RC
+2017_03_02_12_23_06: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_23_06: [blackbox] recording: 12_23_06.px4log
+2017_03_02_12_23_08: DISARMED by RC
+2017_03_02_12_23_10: [blackbox] stopped (823 drops)
+2017_03_02_12_23_17: ARMED by RC
+2017_03_02_12_23_17: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_23_17: [blackbox] recording: 12_23_17.px4log
+2017_03_02_12_23_22: Takeoff detected
+2017_03_02_12_23_33: DISARMED by RC
+2017_03_02_12_23_34: [blackbox] stopped (6604 drops)
+2017_03_02_12_23_35: Landing detected
+2017_03_02_12_23_41: MANUAL CONTROL LOST (at t=183924ms)
+2017_03_02_12_24_18: MANUAL CONTROL REGAINED after 37344ms
+2017_03_02_12_24_29: ARMED by RC
+2017_03_02_12_24_29: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_24_29: [blackbox] recording: 12_24_29.px4log
+2017_03_02_12_24_33: Takeoff detected
+2017_03_02_12_24_44: DISARMED by RC
+2017_03_02_12_24_45: [blackbox] stopped (2690 drops)
+2017_03_02_12_24_45: Landing detected
+2017_03_02_12_24_51: ARMED by RC
+2017_03_02_12_24_51: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_24_51: [blackbox] recording: 12_24_51.px4log
+2017_03_02_12_24_52: Takeoff detected
+2017_03_02_12_25_11: DISARMED by RC
+2017_03_02_12_25_12: [blackbox] stopped (2337 drops)
+2017_03_02_12_25_13: Landing detected
+2017_03_02_12_26_09: ARMED by RC
+2017_03_02_12_26_09: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_26_09: [blackbox] recording: 12_26_09.px4log
+2017_03_02_12_26_13: Takeoff detected
+2017_03_02_12_26_31: DISARMED by RC
+2017_03_02_12_26_32: [blackbox] stopped (4255 drops)
+2017_03_02_12_26_33: Landing detected
+2017_03_02_12_27_16: ARMED by RC
+2017_03_02_12_27_16: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_27_16: [blackbox] recording: 12_27_16.px4log
+2017_03_02_12_27_19: Takeoff detected
+2017_03_02_12_27_31: DISARMED by RC
+2017_03_02_12_27_32: [blackbox] stopped (5000 drops)
+2017_03_02_12_27_33: Landing detected
+2017_03_02_12_28_15: ARMED by RC
+2017_03_02_12_28_15: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_28_15: [blackbox] recording: 12_28_15.px4log
+2017_03_02_12_28_20: Takeoff detected
+2017_03_02_12_28_40: DISARMED by RC
+2017_03_02_12_28_41: [blackbox] stopped (5625 drops)
+2017_03_02_12_28_42: Landing detected
+2017_03_02_12_28_59: ARMED by RC
+2017_03_02_12_29_00: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_29_00: [blackbox] recording: 12_28_59.px4log
+2017_03_02_12_29_03: Takeoff detected
+2017_03_02_12_29_16: DISARMED by RC
+2017_03_02_12_29_17: Landing detected
+2017_03_02_12_29_18: [blackbox] stopped (3525 drops)
+2017_03_02_12_29_25: ARMED by RC
+2017_03_02_12_29_25: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_29_26: [blackbox] recording: 12_29_25.px4log
+2017_03_02_12_29_28: Takeoff detected
+2017_03_02_12_29_38: DISARMED by RC
+2017_03_02_12_29_39: [blackbox] stopped (1557 drops)
+2017_03_02_12_29_40: Landing detected
+2017_03_02_12_30_00: MANUAL CONTROL LOST (at t=565098ms)
+2017_03_02_12_30_10: MANUAL CONTROL REGAINED after 10605ms
+2017_03_02_12_30_13: ARMED by RC
+2017_03_02_12_30_13: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_30_13: [blackbox] recording: 12_30_13.px4log
+2017_03_02_12_30_16: Takeoff detected
+2017_03_02_12_30_30: DISARMED by RC
+2017_03_02_12_30_31: [blackbox] stopped (5464 drops)
+2017_03_02_12_30_32: Landing detected
+2017_03_02_12_30_41: ARMED by RC
+2017_03_02_12_30_41: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_30_42: [blackbox] recording: 12_30_41.px4log
+2017_03_02_12_30_45: Takeoff detected
+2017_03_02_12_30_57: DISARMED by RC
+2017_03_02_12_30_59: [blackbox] stopped (2308 drops)
+2017_03_02_12_30_59: Landing detected
+2017_03_02_12_31_16: ARMED by RC
+2017_03_02_12_31_17: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_12_31_17: [blackbox] recording: 12_31_16.px4log
+2017_03_02_12_31_17: Takeoff detected
+2017_03_02_12_31_45: DISARMED by RC
+2017_03_02_12_31_47: [blackbox] stopped (9030 drops)
+2017_03_02_12_31_47: Landing detected
+2017_03_02_12_32_17: MANUAL CONTROL LOST (at t=703066ms)

@@ -1,0 +1,10 @@
+2017_02_28_17_16_07: main state transition denied
+2017_02_28_17_16_10: main state transition denied
+2017_02_28_17_16_12: ARMED by RC
+2017_02_28_17_16_12: [blackbox] /fs/microsd/log/2017-02-28
+2017_02_28_17_16_12: [blackbox] recording: 17_16_12.px4log
+2017_02_28_17_16_15: Takeoff detected
+2017_02_28_17_16_31: DISARMED by RC
+2017_02_28_17_16_33: [blackbox] stopped (661 drops)
+2017_02_28_17_16_33: Landing detected
+2017_03_02_12_18_39: MANUAL CONTROL LOST (at t=195657ms)

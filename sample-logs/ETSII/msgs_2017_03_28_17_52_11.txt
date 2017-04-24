@@ -1,0 +1,8 @@
+2017_03_28_17_52_11: DISARMED by RC
+2017_03_28_17_52_18: ARMED by RC
+2017_03_28_17_52_18: Takeoff detected
+2017_03_28_17_52_18: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_17_52_18: [blackbox] recording: 17_52_17.px4log
+2017_03_28_17_52_35: DISARMED by RC
+2017_03_28_17_52_36: [blackbox] stopped (424 drops)
+2017_03_28_17_52_37: Landing detected

@@ -1,0 +1,5 @@
+2017_03_02_19_14_51: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_19_14_52: [blackbox] recording: 19_14_51.px4log
+2017_03_02_19_14_53: DISARMED by RC
+2017_03_02_19_14_55: [blackbox] stopped (0 drops)
+2017_03_02_19_14_57: MANUAL CONTROL LOST (at t=636988ms)

@@ -1,0 +1,20 @@
+2017_03_28_16_43_43: DISARMED by RC
+2017_03_28_16_43_46: ARMED by RC
+2017_03_28_16_43_46: Takeoff detected
+2017_03_28_16_43_47: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_16_43_47: [blackbox] recording: 16_43_46.px4log
+2017_03_28_16_43_51: DISARMED by RC
+2017_03_28_16_43_52: [blackbox] stopped (1707 drops)
+2017_03_28_16_43_53: Landing detected
+2017_03_28_16_43_53: ARMED by RC
+2017_03_28_16_43_54: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_16_43_54: [blackbox] recording: 16_43_54.px4log
+2017_03_28_16_44_12: DISARMED by RC
+2017_03_28_16_44_13: [blackbox] stopped (2272 drops)
+2017_03_28_16_44_24: ARMED by RC
+2017_03_28_16_44_24: [blackbox] /fs/microsd/log/2017-03-28
+2017_03_28_16_44_25: [blackbox] recording: 16_44_24.px4log
+2017_03_28_16_44_25: Takeoff detected
+2017_03_28_16_45_50: DISARMED by RC
+2017_03_28_16_45_51: [blackbox] stopped (1940 drops)
+2017_03_28_16_45_52: Landing detected

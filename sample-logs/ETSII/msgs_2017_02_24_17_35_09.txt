@@ -1,0 +1,30 @@
+2017_02_24_17_35_09: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_35_13: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_35_23: ARMED by RC
+2017_02_24_17_35_23: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_17_35_23: [blackbox] recording: 17_35_23.px4log
+2017_02_24_17_35_30: Takeoff detected
+2017_02_24_17_36_00: Landing detected
+2017_02_24_17_36_02: Takeoff detected
+2017_02_24_17_36_10: DISARMED by RC
+2017_02_24_17_36_11: [blackbox] stopped (305 drops)
+2017_02_24_17_36_12: Landing detected
+2017_02_24_17_36_15: MANUAL CONTROL LOST (at t=699511ms)
+2017_02_24_17_37_20: MANUAL CONTROL REGAINED after 66002ms
+2017_02_24_17_37_22: ARMED by RC
+2017_02_24_17_37_22: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_17_37_22: [blackbox] recording: 17_37_22.px4log
+2017_02_24_17_37_23: main state transition denied
+2017_02_24_17_37_51: DISARMED by RC
+2017_02_24_17_37_52: [blackbox] stopped (1955 drops)
+2017_02_24_17_37_54: main state transition denied
+2017_02_24_17_38_20: ARMED by RC
+2017_02_24_17_38_20: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_17_38_20: [blackbox] recording: 17_38_20.px4log
+2017_02_24_17_38_24: Takeoff detected
+2017_02_24_17_38_38: no rc
+2017_02_24_17_38_38: failsafe mode on
+2017_02_24_17_38_41: failsafe mode off
+2017_02_24_17_38_43: DISARMED by RC
+2017_02_24_17_38_44: [blackbox] stopped (2717 drops)
+2017_02_24_17_38_45: Landing detected

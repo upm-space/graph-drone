@@ -1,0 +1,45 @@
+2017_02_24_14_01_20: ARMED by RC
+2017_02_24_14_01_20: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_01_20: [blackbox] recording: 14_01_20.px4log
+2017_02_24_14_01_22: DISARMED by RC
+2017_02_24_14_01_23: [blackbox] stopped (0 drops)
+2017_02_24_14_01_26: MANUAL CONTROL LOST (at t=637590ms)
+2017_02_24_14_11_41: MANUAL CONTROL REGAINED after 620972ms
+2017_02_24_14_11_43: ARMED by RC
+2017_02_24_14_11_43: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_11_43: [blackbox] recording: 14_11_43.px4log
+2017_02_24_14_11_45: DISARMED by RC
+2017_02_24_14_11_46: [blackbox] stopped (0 drops)
+2017_02_24_14_11_49: MANUAL CONTROL LOST (at t=1265248ms)
+2017_02_24_14_22_23: MANUAL CONTROL REGAINED after 639308ms
+2017_02_24_14_22_24: ARMED by RC
+2017_02_24_14_22_24: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_22_24: [blackbox] recording: 14_22_24.px4log
+2017_02_24_14_22_26: DISARMED by RC
+2017_02_24_14_22_27: [blackbox] stopped (0 drops)
+2017_02_24_14_22_28: MANUAL CONTROL LOST (at t=1909368ms)
+2017_02_24_14_32_47: MANUAL CONTROL REGAINED after 624193ms
+2017_02_24_14_32_49: ARMED by RC
+2017_02_24_14_32_49: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_32_49: [blackbox] recording: 14_32_49.px4log
+2017_02_24_14_32_51: DISARMED by RC
+2017_02_24_14_32_52: [blackbox] stopped (0 drops)
+2017_02_24_14_33_11: MANUAL CONTROL LOST (at t=2556782ms)
+2017_02_24_14_43_11: MANUAL CONTROL REGAINED after 605409ms
+2017_02_24_14_43_13: ARMED by RC
+2017_02_24_14_43_13: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_43_13: [blackbox] recording: 14_43_13.px4log
+2017_02_24_14_43_15: DISARMED by RC
+2017_02_24_14_43_16: [blackbox] stopped (0 drops)
+2017_02_24_14_43_17: MANUAL CONTROL LOST (at t=3167802ms)
+2017_02_24_14_53_35: MANUAL CONTROL REGAINED after 622829ms
+2017_02_24_14_53_37: ARMED by RC
+2017_02_24_14_53_37: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_14_53_37: [blackbox] recording: 14_53_37.px4log
+2017_02_24_14_53_39: DISARMED by RC
+2017_02_24_14_53_40: [blackbox] stopped (0 drops)
+2017_02_24_15_03_58: ARMED by RC
+2017_02_24_15_03_58: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_15_03_58: [blackbox] recording: 15_03_58.px4log
+2017_02_24_15_04_01: DISARMED by RC
+2017_02_24_15_04_02: [blackbox] stopped (0 drops)

@@ -1,0 +1,13 @@
+2017_03_02_21_14_41: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_21_14_43: [blackbox] recording: 21_14_41.px4log
+2017_03_02_21_14_43: DISARMED by RC
+2017_03_02_21_14_46: MANUAL CONTROL LOST (at t=637382ms)
+2017_03_02_21_14_46: [blackbox] stopped (0 drops)
+2017_03_02_21_25_05: MANUAL CONTROL REGAINED after 622888ms
+2017_03_02_21_25_06: CAUTION: Avionics power low:   4.86 Volt
+2017_03_02_21_25_08: ARMED by RC
+2017_03_02_21_25_08: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_21_25_09: [blackbox] recording: 21_25_06.px4log
+2017_03_02_21_25_10: DISARMED by RC
+2017_03_02_21_25_13: [blackbox] stopped (16 drops)
+2017_03_02_21_25_13: MANUAL CONTROL LOST (at t=1268285ms)

@@ -1,0 +1,23 @@
+2017_02_24_16_47_03: ARMED by RC
+2017_02_24_16_47_03: Takeoff detected
+2017_02_24_16_47_03: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_16_47_03: [blackbox] recording: 16_47_03.px4log
+2017_02_24_16_47_05: DISARMED by RC
+2017_02_24_16_47_06: [blackbox] stopped (0 drops)
+2017_02_24_16_47_07: Landing detected
+2017_02_24_16_47_10: MANUAL CONTROL LOST (at t=640007ms)
+2017_02_24_16_57_26: MANUAL CONTROL REGAINED after 620337ms
+2017_02_24_16_57_27: ARMED by RC
+2017_02_24_16_57_27: [blackbox] /fs/microsd/log/2017-02-24
+2017_02_24_16_57_27: [blackbox] recording: 16_57_27.px4log
+2017_02_24_16_57_29: DISARMED by RC
+2017_02_24_16_57_30: [blackbox] stopped (0 drops)
+2017_02_24_16_57_31: MANUAL CONTROL LOST (at t=1265719ms)
+2017_02_24_17_02_40: MANUAL CONTROL REGAINED after 311267ms
+2017_02_24_17_04_01: MANUAL CONTROL LOST (at t=1657088ms)
+2017_02_24_17_08_02: MANUAL CONTROL REGAINED after 243213ms
+2017_02_24_17_08_05: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_08_08: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_08_14: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_08_16: NOT ARMING: Switch to a manual mode first.
+2017_02_24_17_08_18: MANUAL CONTROL LOST (at t=1916148ms)

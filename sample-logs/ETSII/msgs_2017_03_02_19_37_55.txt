@@ -1,0 +1,15 @@
+2017_03_02_19_37_55: ARMED by RC
+2017_03_02_19_37_56: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_19_37_56: [blackbox] recording: 19_37_55.px4log
+2017_03_02_19_37_59: DISARMED by RC
+2017_03_02_19_38_01: CAUTION: Avionics power low:   4.89 Volt
+2017_03_02_19_38_02: ARMED by RC
+2017_03_02_19_38_02: [blackbox] stopped (0 drops)
+2017_03_02_19_38_03: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_19_38_03: [blackbox] recording: 19_38_02.px4log
+2017_03_02_19_38_06: MANUAL CONTROL LOST (at t=649157ms)
+2017_03_02_19_38_06: no rc
+2017_03_02_19_38_06: failsafe mode on
+2017_03_02_19_38_06: Takeoff detected
+2017_03_02_19_38_08: MANUAL CONTROL REGAINED after 2917ms
+2017_03_02_19_38_08: failsafe mode off

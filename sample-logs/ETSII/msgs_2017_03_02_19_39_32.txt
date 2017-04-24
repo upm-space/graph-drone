@@ -1,0 +1,56 @@
+2017_03_02_19_39_32: CRITICAL BATTERY, SHUT SYSTEM DOWN
+2017_03_02_19_39_34: Not ready to fly: Sensors not set up correctly
+2017_03_02_19_49_56: CAUTION: Avionics power low:   4.90 Volt
+2017_03_02_19_49_56: ARMED by RC
+2017_03_02_19_49_58: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_19_49_58: [blackbox] recording: 19_49_56.px4log
+2017_03_02_19_49_58: DISARMED by RC
+2017_03_02_19_50_01: [blackbox] stopped (0 drops)
+2017_03_02_19_50_01: MANUAL CONTROL LOST (at t=644690ms)
+2017_03_02_20_00_19: MANUAL CONTROL REGAINED after 621749ms
+2017_03_02_20_00_20: CAUTION: Avionics power low:   4.88 Volt
+2017_03_02_20_00_20: ARMED by RC
+2017_03_02_20_00_21: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_00_21: [blackbox] recording: 20_00_20.px4log
+2017_03_02_20_00_22: DISARMED by RC
+2017_03_02_20_00_24: [blackbox] stopped (0 drops)
+2017_03_02_20_01_10: MANUAL CONTROL LOST (at t=1317917ms)
+2017_03_02_20_10_42: MANUAL CONTROL REGAINED after 575927ms
+2017_03_02_20_10_44: CAUTION: Avionics power low:   4.86 Volt
+2017_03_02_20_10_46: ARMED by RC
+2017_03_02_20_10_46: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_10_46: [blackbox] recording: 20_10_44.px4log
+2017_03_02_20_10_46: DISARMED by RC
+2017_03_02_20_10_49: [blackbox] stopped (0 drops)
+2017_03_02_20_10_49: MANUAL CONTROL LOST (at t=1899998ms)
+2017_03_02_20_21_07: MANUAL CONTROL REGAINED after 622215ms
+2017_03_02_20_21_08: CAUTION: Avionics power low:   4.84 Volt
+2017_03_02_20_21_10: ARMED by RC
+2017_03_02_20_21_10: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_21_10: [blackbox] recording: 20_21_08.px4log
+2017_03_02_20_21_10: DISARMED by RC
+2017_03_02_20_21_13: [blackbox] stopped (0 drops)
+2017_03_02_20_22_44: MANUAL CONTROL LOST (at t=2619146ms)
+2017_03_02_20_31_34: MANUAL CONTROL REGAINED after 534125ms
+2017_03_02_20_31_36: CAUTION: Avionics power low:   4.85 Volt
+2017_03_02_20_31_36: ARMED by RC
+2017_03_02_20_31_37: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_31_37: [blackbox] recording: 20_31_36.px4log
+2017_03_02_20_31_38: DISARMED by RC
+2017_03_02_20_31_41: [blackbox] stopped (0 drops)
+2017_03_02_20_31_45: MANUAL CONTROL LOST (at t=3163335ms)
+2017_03_02_20_42_00: MANUAL CONTROL REGAINED after 619933ms
+2017_03_02_20_42_01: CAUTION: Avionics power low:   4.85 Volt
+2017_03_02_20_42_03: ARMED by RC
+2017_03_02_20_42_03: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_42_03: [blackbox] recording: 20_42_01.px4log
+2017_03_02_20_42_04: DISARMED by RC
+2017_03_02_20_42_05: MANUAL CONTROL LOST (at t=3787820ms)
+2017_03_02_20_42_06: [blackbox] stopped (0 drops)
+2017_03_02_20_52_25: MANUAL CONTROL REGAINED after 624347ms
+2017_03_02_20_52_27: CAUTION: Avionics power low:   4.83 Volt
+2017_03_02_20_52_27: ARMED by RC
+2017_03_02_20_52_28: [blackbox] /fs/microsd/log/2017-03-02
+2017_03_02_20_52_29: [blackbox] recording: 20_52_27.px4log
+2017_03_02_20_52_29: DISARMED by RC
+2017_03_02_20_52_32: [blackbox] stopped (0 drops)
