@@ -107,9 +107,18 @@ function log2Var(locLog,callback) {
 
 }
 
+
+
 log2Var(myLogPath, function(tryVAr){
+
     // TODO use this var in another script
     console.log(tryVAr);
+    var DataJSON = "./output-JSON/2017-02-21_17-24-06-DATA.json";
+    var myJSON = JSON.stringify(tryVAr);
+     if(fs.existsSync(DataJSON)){
+         fs.unlinkSync(DataJSON);
+     }
+     fs.appendFileSync(DataJSON, myJSON);
 });
 
 
