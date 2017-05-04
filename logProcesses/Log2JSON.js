@@ -28,7 +28,7 @@ if (!String.format) {
 function formatoFMT(arraydeLinea){
     var result = '\t\t{\n';
     var columns = ["Type","Length","Name","Format","Columns"];
-    for (var i = 1 ; i < arraydeLinea.length ; i++) {
+    for (let i = 1 ; i < arraydeLinea.length ; i++) {
         if(i < 5){
             result += String.format('\t\t\t"{0}" : "{1}",\n', columns[i-1], arraydeLinea[i]);
         }
