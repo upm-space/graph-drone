@@ -120,6 +120,8 @@
 
         hitslineChart
             .width(500).height(200)
+            .elasticY(true)
+            .mouseZoomable(true)
             .dimension(dateDim)
                 .group(status_200,"200")
                 .stack(status_302,"302")
@@ -127,7 +129,7 @@
                 .renderArea(true)
             .x(d3.time.scale().domain([minDate,maxDate]))
                 .elasticX(true)
-                //.brushOn(false)
+                .brushOn(false)
                 .legend(dc.legend().x(60).y(10).itemHeight(13).gap(5))
             .yAxisLabel("Hits per day")
                 .title(function(d){ return getvalues(d);})
@@ -154,7 +156,7 @@
 
         //Data Table
 
-   /** var datatable   = dc.dataTable("#dc-data-table");
+    /**var datatable   = dc.dataTable("#dc-data-table");
     var tableGroup = dateDim.group().reduce(
         function(p,v) {
             p[v.status] = (p[v.status] || 0) + +v.hits;
@@ -168,6 +170,8 @@
         },
         function() { return {}; });
 
+
+  // var datatable   = dc.dataTable("#dc-data-table");
     datatable
         .dimension(tableGroup)
         .group(function(d) {return d.value.Year;})
@@ -180,6 +184,8 @@
             function(d) {return d.value.http_200+d.value.http_302+d.value.http_404;}
         ]);**/
 
+
+    //tabla antigua
    var datatable   = dc.dataTable("#dc-data-table");
     datatable
         .dimension(dateDim)
