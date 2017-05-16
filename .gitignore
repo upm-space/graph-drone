@@ -4,6 +4,9 @@
 
 # -
 
+# ignoring the node_modules folder for all projects
+**/node_modules/
+
 # Created by https://www.gitignore.io/api/webstorm
 
 ### WebStorm ###

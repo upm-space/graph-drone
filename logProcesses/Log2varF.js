@@ -26,14 +26,14 @@ function log2Var(locLog,callback) {
             logVar.FMT.push({});
         }
         var columns = ["Type","Length","Name","Format","Columns"];
-        for (var i = 1 ; i < arraydeLinea.length ; i++) {
+        for (let i = 1 ; i < arraydeLinea.length ; i++) {
             if(i < 5){
                 logVar.FMT[logVar.FMT.length-1][columns[i-1]] = arraydeLinea[i];
             }
             else if(i == 5){
                 logVar.FMT[logVar.FMT.length-1][columns[i-1]] = [];
                 var mycols = arraydeLinea[i].split(",");
-                for(var j = 0; j < mycols.length; j++){
+                for(let j = 0; j < mycols.length; j++){
                     logVar.FMT[logVar.FMT.length-1][columns[i-1]].push(mycols[j]);
                 }
             }
@@ -56,14 +56,14 @@ function log2Var(locLog,callback) {
 
         // Search for the FMT value to get columns
         //TODO try to make this bisection search after a merge-sort of the FMT array by name to make the search faster
-        for (var i = 0; i < logVar.FMT.length; i++) {
+        for (let i = 0; i < logVar.FMT.length; i++) {
             if (logVar.FMT[i].Name == arraydeLinea[0]) {
                 var columns = logVar.FMT[i].Columns;
                 break;
             }
         }
         // Parse the columns
-        for (var i = 1; i < arraydeLinea.length; i++) {
+        for (let i = 1; i < arraydeLinea.length; i++) {
             if (isNaN(Number(arraydeLinea[i]))) {
                 logVar[arraydeLinea[0]][logVar[arraydeLinea[0]].length - 1][columns[i - 1]] = arraydeLinea[i];
             }
@@ -78,7 +78,7 @@ function log2Var(locLog,callback) {
 
     lineReader.eachLine(locLog, function (line, last) {
 
-        var lineArr = line.split(", ");
+        let lineArr = line.split(", ");
 
         if (lineArr[0] == "FMT") {
             parseFMT(myLogVar, lineArr);
@@ -93,7 +93,7 @@ function log2Var(locLog,callback) {
 
     lineReader.eachLine(locLog, function (line, last) {
 
-        var lineArr = line.split(", ");
+        let lineArr = line.split(", ");
 
         if (lineArr[0] != "FMT") {
             parseMSG(myLogVar, lineArr);
@@ -111,7 +111,7 @@ function log2Var(locLog,callback) {
 // Esta funcion la uso para formatear strings como en java
 if (!String.format) {
     String.format = function(format) {
-        var args = Array.prototype.slice.call(arguments, 1);
+        let args = Array.prototype.slice.call(arguments, 1);
         return format.replace(/{(\d+)}/g, function(match, number) {
             return typeof args[number] != 'undefined'
                 ? args[number]
@@ -122,33 +122,25 @@ if (!String.format) {
 }
 
 
-function search(nameKey, myArray){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].Name === nameKey) {
-            return myArray[i];
-        }
-    }
-}
-
 function printObj2JSON(myLogVar){
     var result = '{\n';
     var separ1 = "";
-    for (var key1 in myLogVar){
+    for (let key1 in myLogVar){
         if (key1 == "FMT"){
             continue;
         }
         result +=  separ1 + '\t' + key1 + ' : [\n';
         var separ2 = "";
-        for (var j = 0; j < myLogVar[key1].length; j++){
+        for (let j = 0; j < myLogVar[key1].length; j++){
             result += separ2 + '\t\t{\n';
             var separ3= "";
-            for (var key2 in myLogVar[key1][j]){
+            for (let key2 in myLogVar[key1][j]){
                 if(key2 == "Columns"){
                     //result += String.format(separ3 + '\t\t\t{0} : "[{1}]"', key2 , myLogVar[key1][j][key2]);
 
                     result += separ3 + "\t\t\t" + key2 + " : [ ";
                     var separ4 = "";
-                    for (var k = 0; k < myLogVar[key1][j][key2].length; k++){
+                    for (let k = 0; k < myLogVar[key1][j][key2].length; k++){
                         result += separ4 + '"' + myLogVar[key1][j][key2][k] + '"';
                         if (separ4 == ""){
                             separ4 = ", ";

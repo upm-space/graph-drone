@@ -19,14 +19,14 @@ function parseFMT(logVar, arraydeLinea){
         logVar.FMT.push({});
     }
     var columns = ["Type","Length","Name","Format","Columns"];
-    for (var i = 1 ; i < arraydeLinea.length ; i++) {
+    for (let i = 1 ; i < arraydeLinea.length ; i++) {
         if(i < 5){
             logVar.FMT[logVar.FMT.length-1][columns[i-1]] = arraydeLinea[i];
         }
         else if(i == 5){
             logVar.FMT[logVar.FMT.length-1][columns[i-1]] = [];
             var mycols = arraydeLinea[i].split(",");
-            for(var j = 0; j < mycols.length; j++){
+            for(let j = 0; j < mycols.length; j++){
                 logVar.FMT[logVar.FMT.length-1][columns[i-1]].push(mycols[j]);
             }
         }
@@ -57,7 +57,7 @@ function parseMSG(logVar, arraydeLinea){
         }
     }
     // Parse the columns
-    for (var i = 1 ; i < arraydeLinea.length ; i++) {
+    for (let i = 1 ; i < arraydeLinea.length ; i++) {
         if(isNaN(Number(arraydeLinea[i]))){
             logVar[arraydeLinea[0]][logVar[arraydeLinea[0]].length-1][columns[i-1]] = arraydeLinea[i];
         }
@@ -72,7 +72,7 @@ function parseMSG(logVar, arraydeLinea){
 
 lineReader.eachLine(myLog, function(line,last) {
 
-    var lineArr = line.split(", ");
+    let lineArr = line.split(", ");
 
     if(lineArr[0] == "FMT"){
         parseFMT(myLog_2017_02_21_17_24_06,lineArr);
