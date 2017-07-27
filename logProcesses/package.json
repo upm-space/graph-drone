@@ -2,7 +2,7 @@
   "name": "log-processes",
   "version": "1.0.0",
   "description": "Several scripts used to read and process the data from the flight logs",
-  "main": "entrypoint.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/upm-space/graph-drone/issues"
   },
-  "homepage": "https://github.com/upm-space/graph-drone#readme"
+  "homepage": "https://github.com/upm-space/graph-drone#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "line-reader": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
