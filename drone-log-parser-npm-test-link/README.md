@@ -8,3 +8,4 @@ When opening a commit with atom open, atom does not loose those projects either
 
 
 What happens now if we delete the --safe flag
+If atom is open open normal.
